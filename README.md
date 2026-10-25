@@ -6,6 +6,12 @@ An Agent Skill that sets up a local, automatically updating Bambu Lab printer-st
 
 It reads the printer's LAN MQTT status, renders a transparent browser overlay, helps configure the Bambu Studio virtual camera, and verifies the result from printer to streaming preview.
 
+## Usage screenshot
+
+![OBS showing the Bambu camera with a live printer-status overlay](assets/screenshots/obs-overlay-live.png)
+
+The status card sits above the Bambu camera source and updates the job name, state, percentage, layer count, remaining time, nozzle temperature, and bed temperature. The displayed language follows the installed overlay version and can be customized.
+
 ## Install the Skill
 
 ```bash
