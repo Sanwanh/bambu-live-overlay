@@ -1,0 +1,4 @@
+interface:
+  display_name: "Bambu Live Overlay"
+  short_description: "Show live Bambu printer status in OBS streams"
+  default_prompt: "Use $bambu-live-overlay to add a live Bambu Lab printer status card to my OBS stream."
