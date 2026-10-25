@@ -48,3 +48,9 @@ The runtime writes three local files:
 - `status.json`: structured status plus update time.
 
 The card should show job name, state, percentage, layer, remaining time, nozzle temperature, and bed temperature. Missing fields must render as `--`, not crash the service.
+
+## Visual reference
+
+Use this real OBS setup as the expected composition and readability target:
+
+![OBS showing the Bambu camera with a live printer-status overlay](https://raw.githubusercontent.com/Sanwanh/bambu-live-overlay/main/assets/screenshots/obs-overlay-live.png)
